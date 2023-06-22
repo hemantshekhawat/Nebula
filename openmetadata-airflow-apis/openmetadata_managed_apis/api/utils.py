@@ -18,7 +18,7 @@ from multiprocessing import Process
 from typing import Optional
 
 from airflow import settings
-from airflow.jobs.scheduler_job import SchedulerJob
+from airflow.jobs.scheduler_job import Scheduler
 from airflow.models import DagBag
 from flask import request
 from openmetadata_managed_apis.utils.logger import api_logger
